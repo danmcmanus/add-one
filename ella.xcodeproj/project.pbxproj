@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		376222CE24A9921B0089B1AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376222CD24A9921B0089B1AB /* AppDelegate.swift */; };
 		376222D024A9921B0089B1AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376222CF24A9921B0089B1AB /* SceneDelegate.swift */; };
-		376222D224A9921B0089B1AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376222D124A9921B0089B1AB /* ContentView.swift */; };
+		376222D224A9921B0089B1AB /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376222D124A9921B0089B1AB /* GameView.swift */; };
 		376222D424A9921D0089B1AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 376222D324A9921D0089B1AB /* Assets.xcassets */; };
 		376222D724A9921D0089B1AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 376222D624A9921D0089B1AB /* Preview Assets.xcassets */; };
 		376222DA24A9921D0089B1AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 376222D824A9921D0089B1AB /* LaunchScreen.storyboard */; };
+		376222E424A9B1410089B1AB /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376222E324A9B1410089B1AB /* GameData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		376222CA24A9921B0089B1AB /* ella.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ella.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		376222CD24A9921B0089B1AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		376222CF24A9921B0089B1AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		376222D124A9921B0089B1AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		376222D124A9921B0089B1AB /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		376222D324A9921D0089B1AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		376222D624A9921D0089B1AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		376222D924A9921D0089B1AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		376222DB24A9921D0089B1AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		376222E324A9B1410089B1AB /* GameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				376222CD24A9921B0089B1AB /* AppDelegate.swift */,
 				376222CF24A9921B0089B1AB /* SceneDelegate.swift */,
-				376222D124A9921B0089B1AB /* ContentView.swift */,
+				376222D124A9921B0089B1AB /* GameView.swift */,
 				376222D324A9921D0089B1AB /* Assets.xcassets */,
 				376222D824A9921D0089B1AB /* LaunchScreen.storyboard */,
 				376222DB24A9921D0089B1AB /* Info.plist */,
 				376222D524A9921D0089B1AB /* Preview Content */,
+				376222E324A9B1410089B1AB /* GameData.swift */,
 			);
 			path = ella;
 			sourceTree = "<group>";
@@ -147,8 +150,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				376222CE24A9921B0089B1AB /* AppDelegate.swift in Sources */,
+				376222E424A9B1410089B1AB /* GameData.swift in Sources */,
 				376222D024A9921B0089B1AB /* SceneDelegate.swift in Sources */,
-				376222D224A9921B0089B1AB /* ContentView.swift in Sources */,
+				376222D224A9921B0089B1AB /* GameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
